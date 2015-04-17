@@ -1,0 +1,6 @@
+E:\Documents\GitHub\Othello\Othello\Othello\bin\Debug\Othello.exe.config
+E:\Documents\GitHub\Othello\Othello\Othello\bin\Debug\Othello.exe
+E:\Documents\GitHub\Othello\Othello\Othello\bin\Debug\Othello.pdb
+E:\Documents\GitHub\Othello\Othello\Othello\obj\Debug\Othello.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\Othello\Othello\Othello\obj\Debug\Othello.exe
+E:\Documents\GitHub\Othello\Othello\Othello\obj\Debug\Othello.pdb

@@ -1,0 +1,7 @@
+E:\Documents\GitHub\Othello\Othello\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+E:\Documents\GitHub\Othello\Othello\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+E:\Documents\GitHub\Othello\Othello\UnitTestProject1\bin\Debug\Othello.exe
+E:\Documents\GitHub\Othello\Othello\UnitTestProject1\bin\Debug\Othello.pdb
+E:\Documents\GitHub\Othello\Othello\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\Othello\Othello\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+E:\Documents\GitHub\Othello\Othello\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

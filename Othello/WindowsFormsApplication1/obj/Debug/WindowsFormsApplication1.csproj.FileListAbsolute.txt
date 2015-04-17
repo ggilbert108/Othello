@@ -1,0 +1,11 @@
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\bin\Debug\Othello.exe
+E:\Documents\GitHub\Othello\Othello\WindowsFormsApplication1\bin\Debug\Othello.pdb
