@@ -47,11 +47,10 @@
     <Compile Include="Auxillary\Util.cs" />
     <Compile Include="Logic\Board.cs" />
     <Compile Include="Logic\Game.cs" />
-    <Compile Include="Logic\HumanGame.cs" />
+    <Compile Include="Auxillary\HumanGame.cs" />
     <Compile Include="Player\IPlayer.cs" />
     <Compile Include="Player\MinimaxPlayer.cs" />
     <Compile Include="Player\RandomPlayer.cs" />
-    <Compile Include="Player\TerrimaxPlayer.cs" />
     <Compile Include="Tester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

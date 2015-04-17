@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Othello.Logic;
 using Othello.Player;
 
-namespace Othello.Logic
+namespace Othello.Auxillary
 {
     public class HumanGame
     {
@@ -29,32 +30,39 @@ namespace Othello.Logic
             {
                 return false;
             }
-
-            Timer timer = new Timer(enemyTurn, null, 50, -1);
             return true;
         }
 
         public void passTurn()
         {
             passes++;
-            enemyTurn(null);
+            enemyTurn();
         }
 
-        private void enemyTurn(object m)
+        public bool enemyTurn()
         {
             HashSet<Coord> moves = board.getMoves(Piece.Black);
             if (moves.Count == 0)
             {
                 passes++;
-                return;
+                if (passes >= 2)
+                {
+                    return false;
+                }
             }
             Coord move = enemyPlayer.chooseMove(board, moves);
             board.makeMove(move, Piece.Black, null);
+            return true;
         }
 
         public HashSet<Coord> getHumanMoves()
         {
             return board.getMoves(Piece.White);
+        }
+
+        public bool isGameOver()
+        {
+            return passes >= 2;
         }
     }
 }

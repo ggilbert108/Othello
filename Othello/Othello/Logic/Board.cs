@@ -99,11 +99,6 @@ namespace Othello.Logic
                     whiteScore++;
                 }
             }
-            if (false)
-            {
-                Console.WriteLine("B: " + blackScore);
-                Console.WriteLine("W: " + whiteScore);
-            }
         }
 
         public Piece this[Coord coord]
@@ -133,10 +128,13 @@ namespace Othello.Logic
                 {
                     continue;
                 }
-
                 foreach (Coord flipCoord in flip)
                 {
                     setPiece(flipCoord, piece, moves);
+                }
+                if (flip.Count <= 0)
+                {
+                    Console.WriteLine("Invalid move");
                 }
             }
         }

@@ -51,13 +51,13 @@ namespace Othello.Auxillary
                 case SOUTHEAST:
                 {
                     coord.row++;
-                    coord.col--;
+                    coord.col++;
                     break;
                 }
                 case NORTHWEST:
                 {
                     coord.row--;
-                    coord.col++;
+                    coord.col--;
                     break;
                 }
                 case SOUTHWEST:
@@ -66,31 +66,6 @@ namespace Othello.Auxillary
                     coord.col--;
                     break;
                 }
-            }
-        }
-
-        public static int oppositeDirection(int direction)
-        {
-            switch (direction)
-            {
-                case NORTH:
-                    return SOUTH;
-                case SOUTH:
-                    return NORTH;
-                case EAST:
-                    return WEST;
-                case WEST:
-                    return EAST;
-                case NORTHEAST:
-                    return SOUTHWEST;
-                case SOUTHEAST:
-                    return NORTHWEST;
-                case NORTHWEST:
-                    return SOUTHEAST;
-                case SOUTHWEST:
-                    return NORTHEAST;
-                default:
-                    return -1;
             }
         }
 
