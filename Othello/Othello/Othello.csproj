@@ -44,7 +44,10 @@
   <ItemGroup>
     <Compile Include="Auxillary\BoardEvaluator.cs" />
     <Compile Include="Auxillary\BoardUtil.cs" />
+    <Compile Include="Auxillary\SimpleRNG.cs" />
     <Compile Include="Auxillary\Util.cs" />
+    <Compile Include="Learning\Genetic\GeneticSimulator.cs" />
+    <Compile Include="Learning\Neural\NeuralNetwork.cs" />
     <Compile Include="Logic\Board.cs" />
     <Compile Include="Logic\Game.cs" />
     <Compile Include="Auxillary\HumanGame.cs" />

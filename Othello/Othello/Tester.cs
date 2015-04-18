@@ -14,10 +14,8 @@ namespace Othello
     {
         static void Main(string[] args)
         {
+            SimpleRNG.SetSeedFromSystemTime();
             IPlayer dummy = new RandomPlayer();
-            
-
-
             for (int j = 1; j <= 20; j++)
             {
                 MinimaxPlayer test = new MinimaxPlayer(3);
